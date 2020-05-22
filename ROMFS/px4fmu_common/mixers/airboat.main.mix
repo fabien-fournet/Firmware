@@ -17,7 +17,7 @@ Throttle of left wheels of rover on Output 0
 M: 3
 S: 0 0   -10000  -10000      0  -10000  10000
 S: 0 2   -10000  -10000      0  -10000  10000
-S: 0 3   -10000  -10000      0  -10000  10000
+S: 0 3    10000   10000      0  -10000  10000
 
 
 Throttle of left wheels of rover on Output 1
@@ -25,7 +25,7 @@ Throttle of left wheels of rover on Output 1
 M: 3
 S: 0 0    10000   10000      0  -10000  10000
 S: 0 2    10000   10000      0  -10000  10000
-S: 0 3   -10000  -10000      0  -10000  10000
+S: 0 3    10000   10000      0  -10000  10000
 
 
 Throttle of right wheels of rover on Output 2
