@@ -17,15 +17,20 @@
 
 sh /etc/init.d/rc.mc_defaults
 
+set PWM_OUT 1234
+
 if [ $AUTOCNF = yes ]
 then
+	# The set does not include a battery, but most people will probably use 4S
 	param set BAT_N_CELLS 6
-
 	param set PWM_MAX 1950
 	param set PWM_MIN 1050
 
 	param set PWM_RATE 0
+	
+fi
 
+set MAV_TYPE 10
 
 # Set mixer
 set MIXER airboat
