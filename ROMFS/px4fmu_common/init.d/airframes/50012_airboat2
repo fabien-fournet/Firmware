@@ -29,6 +29,9 @@ then
 	
 fi
 
+set MIXER_AUX pass
+set PWM_AUX_OUT 1234
+
 set MAV_TYPE 10
 
 # Set mixer
