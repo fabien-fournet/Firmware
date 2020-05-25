@@ -90,6 +90,6 @@ fi
 set MAV_TYPE 10
 
 # Set mixer
-set MIXER airboat
+set MIXER airboat1
 
 set PWM_MAIN_REV2 1
